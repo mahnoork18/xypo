@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="./images/logo.png" class="logo">
+            <div class="headerText">
+                <h1>Introducing learning and<br>exploring opportunities for students.</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.At veniam consequatur incidunt magni,fugiat ipsam necessitatibus qui laboriosam Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <button class="common-btn">Read More</button>
+      <div class="line">
+          <span class="line-1"></span><br>
+          <span class="line-2"></span><br>
+          <span class="line-3"></span>
+      </div>
+            </div>
+        </div>
+    </section>
+    <nav id="sideNav">
+        <ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">ABOUT US</a></li>
+<li><a href="#">FEATURES</a></li>
+<li><a href="#">COURSES</a></li>
+<li><a href="#">OFFER</a></li>
+<li><a href="#">CONTACT</a></li>
+</ul>
+  </nav>
+  <img src="images/menu.png" id="menuBtn">
+<!-----About-->
+<section id="about">
+<div class="about-left-col">
+<img src="images/about.png">
+</div>
+<div class="about-right-col">
+    <div class="about-text">
+        <h1>About Us</h1>
+        <span class="square"></span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Voluptates quisquam ipsam fugiat hic adipisci, earum libero esse exercitationem perferendis.<br> Fuga illum repellendus, tenetur molestiae hic ipsum non perferendis officia perspiciatis.</p><br><br>
+        <div class="line">
+            <span class="line-1"></span><br>
+            <span class="line-2"></span><br>
+            <span class="line-3"></span>
+        </div>
+        <h2>“That is what learning is. You suddenly understand something you’ve understood all your life, but in a new way.” </h2>
+
+        <h3>– Doris Lessing</h3>
+    </div>
+</div>
+</section>
+<!----features-->
+<section id="features">
+
+
+    
+</section>
+
+
+
+
+
+
+
+
+
+  <script>
+      var menuBtn = document.getElementById("menuBtn");
+      var sideNav = document.getElementById("sideNav");
+
+      sideNav.style.right = "-250px";
+      menuBtn.onclick = function(){
+          if(sideNav.style.right == "-250px"){
+              sideNav.style.right = "0";
+          }
+          else{
+            sideNav.style.right = "-250px";
+          }
+      }
+
+  </script>
+</body>
+</html>
